@@ -58,6 +58,13 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			Novice::ScreenPrintf(0, 60, "PUSH SPACE KEYS");
 			Novice::ScreenPrintf(0, 30, "Title");
 
+			for (int i = 0; i < kMaxEnemies; i++)
+			{
+				enemy[i]->Initialization();
+			}
+
+			player->Initialization({640.0f,360.0f});
+
 
 			if (keys[DIK_SPACE] && scene->GetFrame() >= 120.0f)
 			{

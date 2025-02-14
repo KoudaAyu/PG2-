@@ -36,7 +36,7 @@ public:
 
 	void Move(char*keys);
 
-
+	void Initialization(Vector2 pos);
 
 	void Draw();
 

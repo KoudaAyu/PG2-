@@ -20,6 +20,9 @@ public:
 	void SetIsAlive(bool isAlive);
 
 	void Update();
+
+	void Initialization();
+
 	void Draw();
 
 };

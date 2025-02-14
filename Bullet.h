@@ -22,6 +22,7 @@ public:
 	void SetRadius(float radius);
 
 	void Update();
+	void Initialization();
 	void Draw();
 
 };

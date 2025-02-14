@@ -25,6 +25,15 @@ void Bullet::Update()
 	pos_.x += velocity_.x;
 }
 
+void Bullet::Initialization()
+{
+	pos_ = { 0.0f,0.0f };
+	radius_ = 15.0f;
+	isActive_ = false;
+	velocity_ = { 5.0f,5.0f };
+
+}
+
 void Bullet::SetPos(Vector2 pos)
 {
 	pos_ = pos;
