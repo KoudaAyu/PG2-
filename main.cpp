@@ -64,7 +64,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			}
 
 			player->Initialization({640.0f,360.0f});
-
+			 
 
 			if (keys[DIK_SPACE] && scene->GetFrame() >= 120.0f)
 			{
